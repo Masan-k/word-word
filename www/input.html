@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUM IMAGE CONVERSION</title>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/dexie@latest/dist/dexie.js"></script>
+    <script type="text/javascript" src="input.js"></script>
+  </head>
+  <body>
+    <h1><LABEL id="lblTitle">INPUT</LABEL></h1>
+    <p>
+      <LABEL id="lblNumber">lblNumber</LABEL>
+      <input class="input-primary" type="text" id="txtInput" size="20" maxlength="20" placeholder="Please enter associative words for numbers."><br><br>
+      <input class="button-primary button-fill" type="button" value="Entry" id="btnEntry">
+    </p>
+    <h2>TIPS</h2>
+    <p> - When registering multiple answers, enter "," between words. Example:[word1, word2]</p>
+    <p> - It will be saved when all the input of the target range is completed.</p>
+    <input class="button-primary button-fill" type="button" value="Menu" id="btnMenu">
+  </body>
+</html>

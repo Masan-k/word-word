@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>wordXword</title>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://unpkg.com/dexie@latest/dist/dexie.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>wordXword</h1>
+    <div class="radio-buttons no-caret">
+      <input type="radio" name="rdoMode" value="test" id="rdoTest">
+      <label for="rdoTest">TEST</label>
+      <input type="radio" name="rdoMode" value="input" id="rdoInput"></label>
+      <label for="rdoInput">INPUT</label>
+
+      <select class="combo-primary" id="fruits" name="fruits">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select> 
+    </div>
+   <br>
+    <div class="container">
+      <input class="button-primary" type="button" value="00-09" id="btn00" data-index="0">
+      <input class="button-primary" type="button" value="10-19" id="btn10" data-index="1">
+      <input class="button-primary" type="button" value="20-29" id="btn20" data-index="2">
+      <br>
+      <input class="button-primary" type="button" value="30-39" id="btn30" data-index="3">
+      <input class="button-primary" type="button" value="40-49" id="btn40" data-index="4">
+      <input class="button-primary" type="button" value="50-59" id="btn50" data-index="5">
+      <br>
+      <input class="button-primary" type="button" value="60-69" id="btn60" data-index="6">
+      <input class="button-primary" type="button" value="70-79" id="btn70" data-index="7">
+      <input class="button-primary" type="button" value="80-89" id="btn80" data-index="8">
+      <br>
+      <input class="button-primary" type="button" value="90-99" id="btn90" data-index="9">
+      <input class="button-primary" type="button" value="RANDOM 30" id="btnRandom" data-index="random,30">
+      <input class="button-primary button-view" type="button" value="VIEW" id="btnView"> 
+    </div>
+  </body>
+</html>

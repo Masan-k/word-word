@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUM IMAGE CONVERSION</title>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="test.js"></script>
+    <script src="https://unpkg.com/dexie@latest/dist/dexie.js"></script>
+  </head>
+  <body>
+    <h1><LABEL id="lblTitle">TEST</LABEL></h1>
+
+    <p><LABEL id="lblStatus">this is Status</LABEL></p>
+    <p>
+      <LABEL id="lblNumber">no-param</LABEL>
+      <input class="input-primary" type="text" id="txtInput" size="25" maxlength="25" placeholder="Please enter the registered word."><br><br>
+      <input class="button-primary button-fill" type="button" value="Start" id="btnRun">
+    <p><LABEL id="lblWaitCount">this is waitCount</LABEL></p>
+    <h2>TIPS</h2>
+    <ul>
+      <li>ctrl key: start button click</li>
+      <li>tab key: menu button click</li>
+    </ul>
+    <h2>RESULT</h2>
+    <p>[THE NUMBER OF QUESTIONS]</p>
+    <p><LABEL id="lblNumberQuestions">this is NumberQuestions</LABEL></p>
+    <p>[THE NUMBER OF CORRECT ANSWERS]</p>
+    <p><LABEL id='lblCorrectCount'>this is lblCorrectCount</LABEL></p>
+    <p>[WRONG PROBLEM]</p>
+    <p><LABEL id="lblMissAnswer">this is lblMissAnswer</LABEL></p>
+    <input class="button-primary button-fill" type="button" value="Menu" id="btnMenu">
+  </body>
+</html>
